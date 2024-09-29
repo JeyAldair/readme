@@ -1,0 +1,9 @@
+# Multiplication and addition of numbers
+This a simple arithmetic expression to mutiply then add integers
+
+a = 5
+b = 10
+multiplication = a * b
+addition = a + b
+
+multiplication, addition
