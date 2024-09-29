@@ -1,0 +1,8 @@
+# List objectives
+objectives = [
+    "Learn the fundamentals of data science",
+    "Familiarize with the tools and languages used",
+    "Implement arithmetic expressions in Python",
+]
+
+objectives
