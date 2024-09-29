@@ -1,4 +1,7 @@
 # Convert minutes to hours
+
+This will convert 200 minutes to hours by diving by 60
+
 def convert_minutes_to_hours(minutes):
     hours = minutes / 60
     return hours
