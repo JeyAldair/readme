@@ -1,0 +1,6 @@
+# Convert minutes to hours
+def convert_minutes_to_hours(minutes):
+    hours = minutes / 60
+    return hours
+
+convert_minutes_to_hours(120)
