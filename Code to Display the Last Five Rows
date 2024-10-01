@@ -1,0 +1,2 @@
+# Display the last five rows of the gme_revenue DataFrame
+gme_revenue.tail()
