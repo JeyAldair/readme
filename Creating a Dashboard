@@ -1,0 +1,10 @@
+import matplotlib.pyplot as plt
+
+plt.figure(figsize=(12, 6))
+plt.plot(tsla_data.index, tsla_data['Close'], label='Tesla Stock Price', color='blue')
+plt.plot(tsla_revenue_data.index, tsla_revenue_data['Revenue'], label='Tesla Revenue', color='orange')
+plt.title('Tesla Stock Price vs Revenue')
+plt.xlabel('Date')
+plt.ylabel('Price / Revenue')
+plt.legend()
+plt.show()
