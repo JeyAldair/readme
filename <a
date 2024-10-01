@@ -1,0 +1,5 @@
+# Suponiendo que ya descargaste datos de Amazon
+amazon_data = yf.Ticker("AMZN").history(period="max")
+
+# Mostrar el Open de la última fila
+print(amazon_data['Open'].iloc[-1])
