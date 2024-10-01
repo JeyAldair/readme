@@ -1,0 +1,14 @@
+import matplotlib.pyplot as plt
+
+def make_graph(data, title):
+    plt.figure(figsize=(10, 5))
+    plt.plot(data.index, data['Close'], label='GameStop Closing Price', color='blue')
+    plt.title(title)
+    plt.xlabel('Date')
+    plt.ylabel('Price (USD)')
+    plt.legend()
+    plt.grid()
+    plt.show()
+
+# Call the make_graph function with the GameStop data
+make_graph(gme_data, "GameStop Stock Price Over Time")
